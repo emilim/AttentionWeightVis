@@ -1,0 +1,19 @@
+##### Core scientific packages
+jupyter==1.0.0
+matplotlib==3.3.4
+numpy==1.22.0
+pandas==1.2.2
+scipy==1.6.0
+
+##### TensorFlow-related packages
+
+# If you want to use a GPU, it must have CUDA Compute Capability 3.5 or
+# higher support, and you must install CUDA, cuDNN and more: see
+# tensorflow.org for the detailed installation instructions.
+
+tensorflow==2.12.0 # or tensorflow-gpu==2.12.0 for GPU support
+tensorflow-text==2.12.0
+tensorflow-datasets==4.8.3
+
+# neo4j
+neo4j==5.7.0
